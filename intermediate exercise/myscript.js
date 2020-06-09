@@ -23,21 +23,22 @@ $(document).ready(function() {
 
 //Within the input field change the value to "Search for..."
 
+$(document).ready(function(){
+		$("#msg").val("Search for ...");
 
-
-
-
-
-
-
-
-
-
-
-
-
+		});
 
 //Add a class name of "box" to each new DIV
+
+$(document).ready(function(){
+		$("div").addClass("box");;
+
+		});
+
 //Change the link to "www.codefactory.wien"	
 	
+$(document).ready(function(){
+		$("a").attr("href", "http://www.codefactory.wien");
+
+		});
 
