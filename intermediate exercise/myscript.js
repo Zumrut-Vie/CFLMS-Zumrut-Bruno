@@ -1,44 +1,57 @@
+
+$(document).ready(function() {
+        $("form").submit(function() {($("#myform").remove());});
+        for ( var i = 1; i <= 5; i++ ) {
+        	$("article").append("<div></div>")
+		}; 
+       		$("#msg").val("Search for ...");
+       		$("div").addClass("box");
+       		$("a").attr("href", "http://www.codefactory.wien");
+        });
+
+
+
 // $("form").submit(function(e) {
 
 // 	e.preventDefault();
 	
-//Remove the form from the page
+// //Remove the form from the page
 
- $("form").submit(function(e) {
+//  $("form").submit(function(e) {
 
-	e.preventDefault($("#myform").remove());
- });
+// 	e.preventDefault($("#myform").remove());
+//  });
 
 	
 
-//Create 5 new DIVs in the article element
+// //Create 5 new DIVs in the article element
 
-$(document).ready(function() {
-        for ( var i = 1; i <= 5; i++ ) {
-        	$("article").append("<div></div>")
-		} 
+// $(document).ready(function() {
+//         for ( var i = 1; i <= 5; i++ ) {
+//         	$("article").append("<div></div>")
+// 		} 
        
-        });
+//         });
 
 
-//Within the input field change the value to "Search for..."
+// //Within the input field change the value to "Search for..."
 
-$(document).ready(function(){
-		$("#msg").val("Search for ...");
+// $(document).ready(function(){
+// 		$("#msg").val("Search for ...");
 
-		});
+// 		});
 
-//Add a class name of "box" to each new DIV
+// //Add a class name of "box" to each new DIV
 
-$(document).ready(function(){
-		$("div").addClass("box");;
+// $(document).ready(function(){
+// 		$("div").addClass("box");
 
-		});
+// 		});
 
-//Change the link to "www.codefactory.wien"	
+// //Change the link to "www.codefactory.wien"	
 	
-$(document).ready(function(){
-		$("a").attr("href", "http://www.codefactory.wien");
+// $(document).ready(function(){
+// 		$("a").attr("href", "http://www.codefactory.wien");
 
-		});
+// 		});
 
