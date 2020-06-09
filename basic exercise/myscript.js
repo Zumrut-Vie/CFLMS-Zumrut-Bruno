@@ -45,5 +45,5 @@
 //$("li:nth-child(2)").css("background-color", "yellow");
 
 // every second and third p element
-$("p:nth-of-type(2)").css("background-color", "yellow");
-$("p:nth-of-type(3)").css("background-color", "yellow");
+$("p:nth-of-type(2), p:nth-of-type(3)").css("background-color", "yellow");
+
